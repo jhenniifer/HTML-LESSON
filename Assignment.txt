@@ -1,0 +1,14 @@
+The charset attribute specifies the character encoding for the HTML document and character encoding is a 
+system that assigns a unique numerical value (code point) to each character. It allows computers to understand
+and represent text in different languages and character sets. Without proper character encoding,
+text rendering and interpretation can be incorrect.
+
+In this case, "charset=utf-8" indicates that the page is encoded using the UTF-8 character set. 
+UTF-8 is a variable-width character encoding that can represent characters from virtually all writing systems
+in the world. It is part of the Unicode standard, which aims to encompass all characters used in human writing
+systems. UTF-8 uses one to four bytes to represent characters, with ASCII characters represented using a single
+byte (backward compatibility). It is the most commonly used character encoding on the web.
+
+Before the UTF-8, other character encoding were used such as ASCII (American Standard Code for Information Interchange),
+CP-1252 and ISO-8859.The HTML5 specification encourages web developers to use the UTF-8 character set. 
+The UTF-8 covers almost all of the characters and symbols in the world!
